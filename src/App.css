@@ -1,42 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.plano {
+  background-image: url('./assets/architectural_plan.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 650px;
+  aspect-ratio: 0.7;
+  border-radius: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ventana {
+  width: 16px;
+  height: 70px;
+  background-color: #ffffff;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cocina {
+  left: 66px;
+  top: 450px;
+  height: 71px;
 }
 
-.card {
-  padding: 2em;
+.comedor {
+  rotate: 90deg;
+  left: 166px;
+  top: 603px;
 }
 
-.read-the-docs {
-  color: #888;
+.sala {
+  rotate: 90deg;
+  left: 492px;
+  top: 597px;
+}
+
+.habitacion-1 {
+  rotate: 90deg;
+  left: 280px;
+  top: -181px;
+  height: 100px;
+  width: 16px;
+}
+
+.habitacion-2 {
+  rotate: 90deg;
+  left: 478px;
+  top: -279px;
+  height: 100px;
+}
+
+.habitacion-3 {
+  left: 567px;
+  top: -46px;
+  height: 100px;
+}
+
+.puerta {
+  position: relative;
+  background-color: rgb(121, 45, 45);
+  width: 10px;
+  height: 43px;
+}
+
+.puerta.principal {
+  rotate: 90deg;
+  top: -108px;
+  left: 349px;
+  height: 83px;
+  width: 16px;
+}
+
+.bano-principal {
+  top: -243px;
+  left: 323px;
+}
+
+.bano-habitacion {
+  top: -338px;
+  left: 167px;
+}
+
+.hab-1 {
+  rotate: 90deg;
+  top: -354px;
+  left: 354px;
+}
+
+.hab-2 {
+  top: -372px;
+  left: 393px;
+}
+
+.hab-3 {
+  top: -335px;
+  left: 393px;
+}
+
+.lavado {
+  rotate: 90deg;
+  top: -359px;
+  left: 162px;
 }
