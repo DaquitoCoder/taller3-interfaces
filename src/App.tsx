@@ -4,6 +4,7 @@ import Plano from './components/Plano';
 import './App.css';
 import ConfigMenu from './components/ConfigMenu';
 import Context from './components/Context';
+import SpeechRecognition from './components/SpeechRecognition';
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -15,6 +16,7 @@ function App() {
         <Plano />
       </Context.Provider>
       <ConfigMenu isOpen={openModal} />
+      <SpeechRecognition />
     </div>
   );
 }

@@ -21,6 +21,7 @@
   height: 70px;
   background-color: #ffffff;
   position: relative;
+  transition: all 0.5s ease;
 }
 
 .cocina {
