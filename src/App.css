@@ -1,12 +1,3 @@
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  flex-direction: column;
-}
-
 .plano {
   background-image: url('./assets/architectural-plan.png');
   background-repeat: no-repeat;
