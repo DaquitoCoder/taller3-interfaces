@@ -23,12 +23,20 @@ const Navbar = () => {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav'>
-            <button type="button" className="btn btn-secondary" onClick={() => (setVoiceRecognition(!voiceRecognition))}>
+            <br />
+            <button
+              type='button'
+              className={
+                voiceRecognition ? 'btn btn-danger' : 'btn btn-success'
+              }
+              onClick={() => setVoiceRecognition(!voiceRecognition)}
+            >
               <i className='fas fa-microphone'></i>
               {voiceRecognition
                 ? ' Desactivar reconocimiento de voz'
                 : ' Activar reconocimiento de voz'}
             </button>
+            <br />
           </div>
         </div>
       </div>

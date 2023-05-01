@@ -1,0 +1,102 @@
+.plano {
+  background-image: url('../assets/architectural-plan.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 650px;
+  aspect-ratio: 0.7;
+  border-radius: 10px;
+}
+
+.ventana {
+  width: 16px;
+  height: 70px;
+  background-color: #ffffff;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.cocina {
+  left: 66px;
+  top: 450px;
+  height: 71px;
+}
+
+.comedor {
+  rotate: 90deg;
+  left: 166px;
+  top: 603px;
+}
+
+.sala {
+  rotate: 90deg;
+  left: 492px;
+  top: 597px;
+}
+
+.habitacion-1 {
+  rotate: 90deg;
+  left: 280px;
+  top: -181px;
+  height: 100px;
+  width: 16px;
+}
+
+.habitacion-2 {
+  rotate: 90deg;
+  left: 478px;
+  top: -279px;
+  height: 100px;
+}
+
+.habitacion-3 {
+  left: 567px;
+  top: -46px;
+  height: 100px;
+}
+
+.puerta {
+  position: relative;
+  background-color: rgb(121, 45, 45);
+  width: 10px;
+  height: 43px;
+}
+
+.puerta.principal {
+  rotate: 90deg;
+  top: -108px;
+  left: 349px;
+  height: 83px;
+  width: 16px;
+}
+
+.bano-principal {
+  top: -243px;
+  left: 323px;
+}
+
+.bano-habitacion {
+  top: -338px;
+  left: 167px;
+}
+
+.hab-1 {
+  rotate: 90deg;
+  top: -354px;
+  left: 354px;
+}
+
+.hab-2 {
+  top: -372px;
+  left: 393px;
+}
+
+.hab-3 {
+  top: -335px;
+  left: 393px;
+}
+
+.lavado {
+  rotate: 90deg;
+  top: -359px;
+  left: 162px;
+}
