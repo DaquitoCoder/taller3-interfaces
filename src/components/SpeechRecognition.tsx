@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Artyom from 'artyom.js/source/artyom';
+import { useStatesStore } from '../store/StatesStore';
 
 const MyComponent = () => {
-  const [isListening, setIsListening] = useState(false);
-  
+  const { voiceRecognition } = useStatesStore();
+
   useEffect(() => {
     // Crear una instancia de Artyom
     const artyom = new Artyom();
@@ -103,12 +104,12 @@ const MyComponent = () => {
     ]);
 
     // Iniciar el reconocimiento de voz
-    if (isListening) {
+    if (voiceRecognition) {
       artyom.initialize({
         lang: 'es-ES',
         continuous: true,
         listen: true, // Activar el reconocimiento de voz
-        debug: true
+        debug: true,
       });
     } else {
       artyom.fatality(); // Detener el reconocimiento de voz
@@ -118,23 +119,9 @@ const MyComponent = () => {
     return () => {
       artyom.fatality();
     };
-  }, [isListening]);
+  }, [voiceRecognition]);
 
-  const toggleVoiceRecognition = () => {
-    setIsListening(!isListening); // Invertir el estado de isListening
-  };
-
-  return (
-    // Renderizar tu componente de React
-    <div>
-      <button onClick={toggleVoiceRecognition}>
-        <i className='fas fa-microphone'></i>
-        {isListening
-          ? ' Desactivar reconocimiento de voz'
-          : ' Activar reconocimiento de voz'}
-      </button>
-    </div>
-  );
+  return <></>;
 };
 
 export default MyComponent;

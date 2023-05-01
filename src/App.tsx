@@ -5,11 +5,13 @@ import SpeechRecognition from './components/SpeechRecognition';
 
 function App() {
   return (
-    <div className='container'>
+    <>
       <Navbar />
-      <Plano />
-      <SpeechRecognition />
-    </div>
+      <div className='container-fluid'>
+        <Plano />
+        <SpeechRecognition />
+      </div>
+    </>
   );
 }
 
