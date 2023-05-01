@@ -1,9 +1,5 @@
-import React from 'react'
-
 const FacialRecognition = () => {
-  return (
-    <div></div>
-  )
-}
+  return <div></div>;
+};
 
-export default FacialRecognition
+export default FacialRecognition;

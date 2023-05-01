@@ -3,6 +3,7 @@ import Plano from './components/Plano';
 import SpeechRecognition from './components/SpeechRecognition';
 import { useStatesStore } from './store/StatesStore';
 import './App.css';
+import FacialRecognition from './components/FacialRecognition';
 
 function App() {
   const { username, setUserName } = useStatesStore();
@@ -42,7 +43,7 @@ function App() {
                 placeholder='Ingresa nombre'
                 id='name-input'
                 autoComplete='off'
-                defaultValue={username}
+                onChange={(e) => setUserName(e.target.value)}
                 required
               />
               <button type='submit' className='btn btn-success mt-2'>
@@ -53,6 +54,7 @@ function App() {
         </div>
         <Plano />
         <SpeechRecognition />
+        <FacialRecognition />
       </div>
     </>
   );
