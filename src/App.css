@@ -4,3 +4,12 @@
   padding: 1rem;
   border-radius: 10px;
 }
+
+#container-main {
+  gap: 1rem;
+}
+
+.iframe-camera {
+  width: 670px;
+  height: 550px;
+}

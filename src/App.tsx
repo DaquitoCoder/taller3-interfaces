@@ -31,7 +31,7 @@ function App() {
           </div>
         )}
       </div>
-      <div className='container-fluid d-flex'>
+      <div className='container-fluid d-flex' id='container-main'>
         <div className='name-form'>
           <form action='post' id='name-form' onSubmit={onSubmitName}>
             <label className='form-label'>
