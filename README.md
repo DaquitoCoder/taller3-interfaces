@@ -3,16 +3,39 @@ Proyecto dirigido a la materia de Diseño de Interfaces de Usuario.
 
 Integrantes: Juan Alejandro León, Jean Claus Stolztmann, Razith Espitia.
 
-# Requisitos
+## Develop environment setup
 
-Git, NodeJS, Yarn
+To deploy the backend project on a local environment, please follow these instructions:
 
-## Available Scripts
+### Requirements
 
-### `yarn`
-Install all dependencies
+- Git
+- Node JS
+- Yarn
+### Clone project
 
-### `yarn start`
+Clone the project from GitHub:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`git clone https://github.com/DaquitoCoder/taller3-interfaces.git`
+
+Go to root folder:
+
+`cd taller3-interfaces`
+
+###  Installing Yarn
+
+Install yarn on the terminal with:
+
+`npm install --global yarn`
+
+Once yarn is installed on your computer execute:
+
+`yarn`
+
+This install all of the project's dependencies on your computer to initialize web application
+
+When `yarn` is completed, execute:
+
+`yarn start`
+
+This initialize the web application and gives you a url to access the web application
