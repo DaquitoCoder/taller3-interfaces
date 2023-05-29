@@ -22,12 +22,12 @@ function App() {
         {username === '' ? (
           <div className='alert alert-warning' role='alert'>
             <h4 className='alert-heading'>
-              ¡Bienvenido! Ingresa tu nombre en el campo a la izquierda.
+              ¡Bienvenid@! Ingresa tu nombre en el campo a la izquierda.
             </h4>
           </div>
         ) : (
           <div className='alert alert-success' role='alert'>
-            <h4 className='alert-heading'>¡Bienvenido {username}!</h4>
+            <h4 className='alert-heading'>¡Bienvenid@ {username}!</h4>
           </div>
         )}
       </div>
