@@ -1,6 +1,11 @@
 import '../css/Plano.css';
 
 const Plano = () => {
+  const mostrarCamera = () => {
+    const camera = document.getElementById('camera') as HTMLDivElement;
+    camera.style.display = 'flex';
+  };
+
   return (
     <div className='plano'>
       <div className='ventana cocina' id='ventana-cocina'></div>
@@ -16,6 +21,31 @@ const Plano = () => {
       <div className='puerta hab-3' id='puerta-hab3'></div>
       <div className='puerta lavado' id='puerta-lavado'></div>
       <div className='puerta principal' id='puerta-principal'></div>
+      {/* camera buttons */}
+      <div className='camera-btn esi' id='camera-btn-esi'>
+        <button
+          className='camera-button'
+          onClick={() => {
+            mostrarCamera();
+          }}
+        ></button>
+      </div>
+      <div className='camera-btn esd'>
+        <button
+          className='camera-button'
+          onClick={() => {
+            mostrarCamera();
+          }}
+        ></button>
+      </div>
+      <div className='camera-btn principal'>
+        <button
+          className='camera-button'
+          onClick={() => {
+            mostrarCamera();
+          }}
+        ></button>
+      </div>
     </div>
   );
 };
