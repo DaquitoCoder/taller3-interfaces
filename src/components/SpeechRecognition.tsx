@@ -101,6 +101,20 @@ const MyComponent = () => {
           }
         },
       },
+      {
+        indexes: ['abrir cámara'],
+        action: () => {
+          let camera = document.getElementById('camera') as HTMLDivElement;
+          camera.style.display = 'flex';
+        },
+      },
+      {
+        indexes: ['cerrar cámara'],
+        action: () => {
+          let camera = document.getElementById('camera') as HTMLDivElement;
+          camera.style.display = 'none';
+        },
+      },
     ]);
 
     // Iniciar el reconocimiento de voz
