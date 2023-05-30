@@ -1,0 +1,15 @@
+.time-stamp {
+  color: white;
+}
+
+.message {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.chat {
+  max-width: 400px;
+  display: none;
+}

@@ -108,17 +108,17 @@
 }
 
 .esi{
-  top: -800px;
+  top: -860px;
   left: 6px;
 }
 
 .esd {
-  top: -860px;
+  top: -920px;
   left: 585px;
 }
 
 .principal {
- top: -242px;
+ top: -300px;
  left: 275px;
 }
 
@@ -128,4 +128,13 @@
   background-color: transparent;
   border: 0;
   cursor: pointer;
+}
+
+.chat-btn{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  top: -200px;
+  left: 260px;
 }
