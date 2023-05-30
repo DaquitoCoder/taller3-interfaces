@@ -4,6 +4,7 @@ import SpeechRecognition from './components/SpeechRecognition';
 import { useStatesStore } from './store/StatesStore';
 import './App.css';
 import FacialRecognition from './components/FacialRecognition';
+import ChatGPT from './components/ChatGPT';
 
 function App() {
   const { username, setUserName } = useStatesStore();
@@ -51,6 +52,8 @@ function App() {
               </button>
             </label>
           </form>
+          <br />
+          <ChatGPT />
         </div>
         <Plano />
         <SpeechRecognition />
