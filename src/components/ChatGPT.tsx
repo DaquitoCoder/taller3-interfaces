@@ -28,9 +28,17 @@ const ChatGPT = () => {
     setMessages((prevState) => [...prevState, newMessages]);
   };
 
-
   return (
-    <div className='card chat'>
+    <div className='card chat' id='chat'>
+      <button
+        type='button'
+        className='btn-close btn-close-white position-absolute top-0 end-0 m-3'
+        aria-label='Close'
+        onClick={() => {
+          const chat = document.getElementById('chat') as HTMLDivElement;
+          chat.style.display = 'none';
+        }}
+      ></button>
       <div className='card-header d-flex justify-content-center align-items-center p-3 bg-dark text-white'>
         <h5 className='mb-0'>¡Bienvenido a HomeGenius!</h5>
       </div>
@@ -56,7 +64,13 @@ const ChatGPT = () => {
           />
         ))}
         {loading && (
-          <Message emissor='loading' messageText='Escribiendo...' date={new Date().toLocaleTimeString()} />
+          <>
+            <Message
+              emissor='loading'
+              messageText='Escribiendo...'
+              date={new Date().toLocaleTimeString()}
+            />
+          </>
         )}
       </div>
       <form onSubmit={handleSubmit}>
