@@ -1,4 +1,3 @@
-import '../css/Navbar.css';
 import { useStatesStore } from '../store/StatesStore';
 
 const Navbar = () => {
@@ -41,16 +40,18 @@ const Navbar = () => {
                 ? ' Desactivar reconocimiento de voz'
                 : ' Activar reconocimiento de voz'}
             </button>
-            
+
             <button
               type='button'
               id='detectionAction'
               onClick={() => setFacialRecognition(!facialRecognition)}
               className={
-                facialRecognition ? 'btn btn-danger ms-2' : 'btn btn-success ms-2'
+                facialRecognition
+                  ? 'btn btn-danger ms-2'
+                  : 'btn btn-success ms-2'
               }
             >
-              <i className="fa-solid fa-camera"></i>
+              <i className='fa-solid fa-camera'></i>
               {facialRecognition
                 ? ' Desactivar reconocimiento facial'
                 : ' Activar reconocimiento facial'}

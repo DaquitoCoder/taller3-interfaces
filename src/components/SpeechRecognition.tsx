@@ -52,8 +52,8 @@ const MyComponent = () => {
           let ventana = document.getElementById('ventana-sala');
           if (ventana) {
             ventana.style.rotate = '90deg';
-            ventana.style.left = '492px';
-            ventana.style.top = '597px';
+            ventana.style.left = '494px';
+            ventana.style.top = '599px';
           }
         },
       },
@@ -74,8 +74,8 @@ const MyComponent = () => {
           let ventana = document.getElementById('ventana-comedor');
           if (ventana) {
             ventana.style.rotate = '90deg';
-            ventana.style.left = '166px';
-            ventana.style.top = '603px';
+            ventana.style.left = '168px';
+            ventana.style.top = '606px';
           }
         },
       },
