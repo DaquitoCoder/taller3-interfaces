@@ -115,6 +115,20 @@ const MyComponent = () => {
           camera.style.display = 'none';
         },
       },
+      {
+        indexes: ['abrir asistente'],
+        action: () => {
+          let asistente = document.getElementById('chat') as HTMLDivElement;
+          asistente.style.display = 'flex';
+        },
+      },
+      {
+        indexes: ['cerrar asistente'],
+        action: () => {
+          let asistente = document.getElementById('chat') as HTMLDivElement;
+          asistente.style.display = 'none';
+        },
+      },
     ]);
 
     // Iniciar el reconocimiento de voz
