@@ -8,11 +8,10 @@ import ChatGPT from './components/ChatGPT';
 
 function App() {
   const { username, setUserName } = useStatesStore();
-  const nameInput = document.getElementById('name-input') as HTMLInputElement;
 
-  const onSubmitName = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmitName = (e: any) => {
     e.preventDefault();
-    setUserName(nameInput?.value);
+    setUserName(e.target.nameInput.value);
   };
 
   return (
@@ -41,10 +40,10 @@ function App() {
               <input
                 type='text'
                 className='form-control'
+                name='nameInput'
                 placeholder='Ingresa nombre'
                 id='name-input'
                 autoComplete='off'
-                onChange={(e) => setUserName(e.target.value)}
                 required
               />
               <button type='submit' className='btn btn-success mt-2'>
