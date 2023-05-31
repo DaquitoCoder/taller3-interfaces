@@ -100,3 +100,112 @@
   top: -359px;
   left: 162px;
 }
+
+.bombillo-cocina {
+  left: 480px;
+  top: 650px;
+  position: absolute;
+  z-index: 30;
+  width: 40px;
+  height: 60px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-comedor {
+  left: 430px;
+  top: 855px;
+  position: absolute;
+  z-index: 30;
+  width: 30px;
+  height: 45px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-sala {
+  left: 745px;
+  top: 763px;
+  position: absolute;
+  z-index: 30;
+  width: 40px;
+  height: 60px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-cuarto1 {
+  left: 745px;
+  top: 560px;
+  position: absolute;
+  z-index: 30;
+  width: 40px;
+  height: 60px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-cuarto2 {
+  left: 730px;
+  top: 350px;
+  position: absolute;
+  z-index: 30;
+  width: 40px;
+  height: 60px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-cuarto3 {
+  left: 543px;
+  top: 320px;
+  position: absolute;
+  z-index: 30;
+  width: 40px;
+  height: 60px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-baño1 {
+  left: 390px;
+  top: 330px;
+  position: absolute;
+  z-index: 30;
+  width: 30px;
+  height: 45px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-baño2 {
+  left: 399px;
+  top: 490px;
+  position: absolute;
+  z-index: 30;
+  width: 30px;
+  height: 45px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.bombillo-baño3 {
+  left: 525px;
+  top: 470px;
+  position: absolute;
+  z-index: 30;
+  width: 30px;
+  height: 45px;
+  background-image: url('../assets/bombillo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
