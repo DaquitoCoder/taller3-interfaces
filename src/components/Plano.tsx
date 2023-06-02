@@ -6,9 +6,9 @@ const Plano = () => {
       <div className='bombillo-cocina' id='bombillo-cocina'></div>
       <div className='bombillo-comedor' id='bombillo-comedor'></div>
       <div className='bombillo-sala' id='bombillo-sala'></div>
-      <div className='bombillo-baño1' id='bombillo-baño1'></div>
-      <div className='bombillo-baño2' id='bombillo-baño2'></div>
-      <div className='bombillo-baño3' id='bombillo-baño3'></div>
+      <div className='bombillo-bano-habitacion' id='bombillo-bano-habitacion'></div>
+      <div className='bombillo-lavado' id='bombillo-lavado'></div>
+      <div className='bombillo-bano-principal' id='bombillo-bano-principal'></div>
       <div className='bombillo-cuarto1' id='bombillo-cuarto1'></div>
       <div className='bombillo-cuarto2' id='bombillo-cuarto2'></div>
       <div className='bombillo-cuarto3' id='bombillo-cuarto3'></div>

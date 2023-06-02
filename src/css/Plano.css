@@ -137,7 +137,7 @@
   background-position: left;
 }
 
-.bombillo-cuarto1 {
+.bombillo-cuarto3 {
   left: 745px;
   top: 560px;
   position: absolute;
@@ -161,7 +161,7 @@
   background-position: left;
 }
 
-.bombillo-cuarto3 {
+.bombillo-cuarto1 {
   left: 543px;
   top: 320px;
   position: absolute;
@@ -173,7 +173,7 @@
   background-position: left;
 }
 
-.bombillo-baño1 {
+.bombillo-bano-habitacion {
   left: 390px;
   top: 330px;
   position: absolute;
@@ -185,7 +185,7 @@
   background-position: left;
 }
 
-.bombillo-baño2 {
+.bombillo-lavado {
   left: 399px;
   top: 490px;
   position: absolute;
@@ -197,7 +197,7 @@
   background-position: left;
 }
 
-.bombillo-baño3 {
+.bombillo-bano-principal {
   left: 525px;
   top: 470px;
   position: absolute;
