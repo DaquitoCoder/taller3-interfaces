@@ -4,14 +4,14 @@ import SpeechRecognition from './components/SpeechRecognition';
 import { useStatesStore } from './store/StatesStore';
 import './App.css';
 import FacialRecognition from './components/FacialRecognition';
+import ChatGPT from './components/ChatGPT';
 
 function App() {
   const { username, setUserName } = useStatesStore();
-  const nameInput = document.getElementById('name-input') as HTMLInputElement;
 
-  const onSubmitName = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmitName = (e: any) => {
     e.preventDefault();
-    setUserName(nameInput?.value);
+    setUserName(e.target.nameInput.value);
   };
 
   return (
@@ -22,12 +22,12 @@ function App() {
         {username === '' ? (
           <div className='alert alert-warning' role='alert'>
             <h4 className='alert-heading'>
-              ¡Bienvenido! Ingresa tu nombre en el campo a la izquierda.
+              ¡Bienvenid@! Ingresa tu nombre en el campo a la izquierda.
             </h4>
           </div>
         ) : (
           <div className='alert alert-success' role='alert'>
-            <h4 className='alert-heading'>¡Bienvenido {username}!</h4>
+            <h4 className='alert-heading'>¡Bienvenid@ {username}!</h4>
           </div>
         )}
       </div>
@@ -40,10 +40,10 @@ function App() {
               <input
                 type='text'
                 className='form-control'
+                name='nameInput'
                 placeholder='Ingresa nombre'
                 id='name-input'
                 autoComplete='off'
-                onChange={(e) => setUserName(e.target.value)}
                 required
               />
               <button type='submit' className='btn btn-success mt-2'>
@@ -51,6 +51,8 @@ function App() {
               </button>
             </label>
           </form>
+          <br />
+          <ChatGPT />
         </div>
         <Plano />
         <SpeechRecognition />

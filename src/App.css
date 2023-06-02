@@ -13,3 +13,8 @@
   width: 670px;
   height: 550px;
 }
+
+.camera {
+  display: none;
+  flex-direction: column;
+}

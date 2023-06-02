@@ -1,18 +1,15 @@
-import '../css/Navbar.css';
 import { useStatesStore } from '../store/StatesStore';
 
 const Navbar = () => {
   const {
     voiceRecognition,
     setVoiceRecognition,
-    facialRecognition,
-    setFacialRecognition,
   } = useStatesStore();
 
   return (
     <nav className='navbar navbar-expand-lg bg-dark-subtle'>
       <div className='container-fluid'>
-        <a className='navbar-brand' href='#'>
+        <a className='navbar-brand' href='/'>
           Smart House
         </a>
         <button
@@ -40,20 +37,6 @@ const Navbar = () => {
               {voiceRecognition
                 ? ' Desactivar reconocimiento de voz'
                 : ' Activar reconocimiento de voz'}
-            </button>
-            
-            <button
-              type='button'
-              id='detectionAction'
-              onClick={() => setFacialRecognition(!facialRecognition)}
-              className={
-                facialRecognition ? 'btn btn-danger ms-2' : 'btn btn-success ms-2'
-              }
-            >
-              <i className="fa-solid fa-camera"></i>
-              {facialRecognition
-                ? ' Desactivar reconocimiento facial'
-                : ' Activar reconocimiento facial'}
             </button>
             <br />
           </div>
