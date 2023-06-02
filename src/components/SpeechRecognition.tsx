@@ -479,7 +479,7 @@ const MyComponent = () => {
         },
       },
       {
-        indexes: ['apagar luz baño habitación'],
+        indexes: ['apagar luz baño principal'],
         action: () => {
           artyom.say('encendiendo luz del baño principal');
           let luz = document.getElementById('bombillo-bano-principal');
