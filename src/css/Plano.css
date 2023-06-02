@@ -140,9 +140,10 @@
 }
 
 .bombillo-cocina {
-  left: 480px;
-  top: 650px;
-  position: absolute;
+  rotate: 180deg;
+  left: 205px;
+  top: -621px;
+  position: relative;
   z-index: 30;
   width: 40px;
   height: 60px;
@@ -152,9 +153,10 @@
 }
 
 .bombillo-comedor {
-  left: 430px;
-  top: 855px;
-  position: absolute;
+  rotate: 180deg;
+  left: 154px;
+  top: -463px;
+  position: relative;
   z-index: 30;
   width: 30px;
   height: 45px;
@@ -164,9 +166,10 @@
 }
 
 .bombillo-sala {
-  left: 745px;
-  top: 763px;
-  position: absolute;
+  rotate: 180deg;
+  left: 484px;
+  top: -600px;
+  position: relative;
   z-index: 30;
   width: 40px;
   height: 60px;
@@ -176,9 +179,10 @@
 }
 
 .bombillo-cuarto3 {
-  left: 745px;
-  top: 560px;
-  position: absolute;
+  rotate: 180deg;
+  left: 460px;
+  top: -1140px;
+  position: relative;
   z-index: 30;
   width: 40px;
   height: 60px;
@@ -188,9 +192,10 @@
 }
 
 .bombillo-cuarto2 {
-  left: 730px;
-  top: 350px;
-  position: absolute;
+  rotate: 180deg;
+  left: 460px;
+  top: -1270px;
+  position: relative;
   z-index: 30;
   width: 40px;
   height: 60px;
@@ -200,9 +205,10 @@
 }
 
 .bombillo-cuarto1 {
-  left: 543px;
-  top: 320px;
-  position: absolute;
+  rotate: 180deg;
+  left: 265px;
+  top: -1230px;
+  position: relative;
   z-index: 30;
   width: 40px;
   height: 60px;
@@ -212,9 +218,10 @@
 }
 
 .bombillo-bano-habitacion {
-  left: 390px;
-  top: 330px;
-  position: absolute;
+  rotate: 180deg;
+  left: 117px;
+  top: -1100px;
+  position: relative;
   z-index: 30;
   width: 30px;
   height: 45px;
@@ -224,9 +231,10 @@
 }
 
 .bombillo-lavado {
-  left: 399px;
-  top: 490px;
-  position: absolute;
+  rotate: 180deg;
+  left: 127px;
+  top: -975px;
+  position: relative;
   z-index: 30;
   width: 30px;
   height: 45px;
@@ -236,9 +244,10 @@
 }
 
 .bombillo-bano-principal {
-  left: 525px;
-  top: 470px;
-  position: absolute;
+  rotate: 180deg;
+  left: 254px;
+  top: -1047px;
+  position: relative;
   z-index: 30;
   width: 30px;
   height: 45px;
