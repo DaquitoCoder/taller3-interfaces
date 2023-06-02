@@ -1,7 +1,7 @@
 # Taller 3 / Proyecto final Diseño de Interfaces de usuario
 Proyecto dirigido a la materia de Diseño de Interfaces de Usuario.
 
-Integrantes: Juan Alejandro León, Jean Claus Stoltzmann, Razith Espitia.
+Integrantes: Juan Alejandro León, Jean Claus Barco Stoltzmann, Oscar Razith Espitia.
 
 ## Develop environment setup
 
