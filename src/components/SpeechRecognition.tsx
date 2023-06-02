@@ -38,6 +38,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir ventana sala'],
         action: () => {
+          artyom.say('abriendo ventana de la sala');
           let ventana = document.getElementById('ventana-sala');
           if (ventana) {
             ventana.style.rotate = '70deg';
@@ -49,6 +50,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar ventana sala'],
         action: () => {
+          artyom.say('cerrando ventana de la sala');
           let ventana = document.getElementById('ventana-sala');
           if (ventana) {
             ventana.style.rotate = '90deg';
@@ -60,6 +62,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir ventana comedor'],
         action: () => {
+          artyom.say('abriendo ventana del comedor');
           let ventana = document.getElementById('ventana-comedor');
           if (ventana) {
             ventana.style.rotate = '70deg';
@@ -71,6 +74,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar ventana comedor'],
         action: () => {
+          artyom.say('cerrando ventana del comedor');
           let ventana = document.getElementById('ventana-comedor');
           if (ventana) {
             ventana.style.rotate = '90deg';
@@ -82,6 +86,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir ventana habitación uno'],
         action: () => {
+          artyom.say('abriendo ventana de la habitación uno');
           let ventana = document.getElementById('ventana-hab1');
           if (ventana) {
             ventana.style.rotate = '70deg';
@@ -93,6 +98,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar ventana habitación uno'],
         action: () => {
+          artyom.say('cerrando ventana de la habitación uno');
           let ventana = document.getElementById('ventana-hab1');
           if (ventana) {
             ventana.style.rotate = '90deg';
@@ -104,6 +110,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir cámara'],
         action: () => {
+          artyom.say('abriendo cámara');
           let camera = document.getElementById('camera') as HTMLDivElement;
           camera.style.display = 'flex';
         },
@@ -111,6 +118,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar cámara'],
         action: () => {
+          artyom.say('cerrando cámara');
           let camera = document.getElementById('camera') as HTMLDivElement;
           camera.style.display = 'none';
         },
@@ -118,6 +126,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir asistente'],
         action: () => {
+          artyom.say('abriendo asistente');
           let asistente = document.getElementById('chat') as HTMLDivElement;
           asistente.style.display = 'flex';
         },
@@ -125,6 +134,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar asistente'],
         action: () => {
+          artyom.say('cerrando asistente');
           let asistente = document.getElementById('chat') as HTMLDivElement;
           asistente.style.display = 'none';
         },
@@ -132,6 +142,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta habitación uno'],
         action: () => {
+          artyom.say('abriendo puerta habitación uno');
           let puerta = document.getElementById('puerta-hab1');
           if (puerta) {
             puerta.style.rotate = '120deg';
@@ -143,6 +154,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta habitación uno'],
         action: () => {
+          artyom.say('cerrando puerta habitación uno');
           let puerta = document.getElementById('puerta-hab1');
           if (puerta) {
             puerta.style.rotate = '90deg';
@@ -154,6 +166,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta baño habitación uno'],
         action: () => {
+          artyom.say('abriendo puerta baño habitación uno');
           let puerta = document.getElementById('puerta-bano-habitacion');
           if (puerta) {
             puerta.style.rotate = '30deg';
@@ -165,6 +178,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta baño habitación uno'],
         action: () => {
+          artyom.say('cerrando puerta habitación uno');
           let puerta = document.getElementById('puerta-bano-habitacion');
           if (puerta) {
             puerta.style.rotate = '0deg';
@@ -176,6 +190,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta habitación dos'],
         action: () => {
+          artyom.say('abriendo puerta habitación dos');
           let puerta = document.getElementById('puerta-hab2');
           if (puerta) {
             puerta.style.rotate = '30deg';
@@ -188,6 +203,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta habitación dos'],
         action: () => {
+          artyom.say('cerrando puerta habitación dos');
           let puerta = document.getElementById('puerta-hab2');
           if (puerta) {
             puerta.style.rotate = '0deg';
@@ -199,6 +215,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta habitación tres'],
         action: () => {
+          artyom.say('abriendo puerta habitación tres');
           let puerta = document.getElementById('puerta-hab3');
           if (puerta) {
             puerta.style.rotate = '30deg';
@@ -210,6 +227,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta habitación tres'],
         action: () => {
+          artyom.say('cerrando puerta habitación tres');
           let puerta = document.getElementById('puerta-hab3');
           if (puerta) {
             puerta.style.rotate = '0deg';
@@ -221,6 +239,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta baño principal'],
         action: () => {
+          artyom.say('abriendo puerta baño principal');
           let puerta = document.getElementById('puerta-bano-principal');
           if (puerta) {
             puerta.style.rotate = '30deg';
@@ -232,6 +251,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta baño principal'],
         action: () => {
+          artyom.say('cerrando puerta baño principal');
           let puerta = document.getElementById('puerta-bano-principal');
           if (puerta) {
             puerta.style.rotate = '0deg';
@@ -243,6 +263,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta lavado'],
         action: () => {
+          artyom.say('abriendo puerta lavado');
           let puerta = document.getElementById('puerta-lavado');
           if (puerta) {
             puerta.style.rotate = '120deg';
@@ -254,6 +275,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta lavado'],
         action: () => {
+          artyom.say('cerrando puerta lavado');
           let puerta = document.getElementById('puerta-lavado');
           if (puerta) {
             puerta.style.rotate = '90deg';
@@ -265,6 +287,7 @@ const MyComponent = () => {
       {
         indexes: ['abrir puerta principal'],
         action: () => {
+          artyom.say('abriendo puerta principal');
           let puerta = document.getElementById('puerta-principal');
           if (puerta) {
             puerta.style.rotate = '120deg';
@@ -276,6 +299,7 @@ const MyComponent = () => {
       {
         indexes: ['cerrar puerta principal'],
         action: () => {
+          artyom.say('cerrando puerta principal');
           let puerta = document.getElementById('puerta-principal');
           if (puerta) {
             puerta.style.rotate = '90deg';
