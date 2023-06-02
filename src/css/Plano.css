@@ -58,6 +58,7 @@
   background-color: rgb(121, 45, 45);
   width: 10px;
   height: 43px;
+  transition: all 0.5s ease;
 }
 
 .puerta.principal {
